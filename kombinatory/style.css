@@ -1,3 +1,15 @@
-p {
-    color: lime;
+div p {
+    color: red;
+}
+
+div.child p {
+    text-decoration: solid line-through;
+}
+
+div#test ~ div {
+    background-color: royalblue;
+}
+
+main + p {
+    text-transform: uppercase;
 }
