@@ -2,11 +2,11 @@ div p {
     color: red;
 }
 
-div.child p {
+.child p {
     text-decoration: solid line-through;
 }
 
-div#test ~ div {
+#test ~ div {
     background-color: royalblue;
 }
 
